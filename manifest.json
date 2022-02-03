@@ -15,7 +15,9 @@
         "glue.js",
         "options_util.js",
         "script.js"
-      ]
+      ],
+      "run_at": "document_start",
+      "all_frames": true
     }
   ],
   "browser_specific_settings": {
