@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Time = Money",
+  "version": "0.0.0.1",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "glue.js",
+        "options_util.js",
+        "script.js"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{8a55e6be-3bef-4750-96d9-9c2fd3f55a12}"
+    }
+  },
+  "icons": {
+    "128": "icon128_on.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}
