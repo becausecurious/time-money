@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Time = Money",
+  "description": "Replace all prices with the time you need to work to earn that much. Find real value of stuff you buy!",
   "version": "0.0.0.1",
   "permissions": [
     "storage"
