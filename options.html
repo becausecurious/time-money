@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Time = Money options</title>
+  <link rel="stylesheet" type="text/css" href="shared.css">
+  <style>
+    .forced_row {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="">
+    <div class="button_block_header">
+      <h1>Time = Money options</h1>
+    </div>
+
+    <div>
+      <button class="action_button" id="save">save</button> <span id="status"></span>
+    </div>
+
+    <p>
+      <label>
+        I earn pSpD1
+        <input type="string" id="usdPerHour" min=0.01 max="100000" maxlength="6"> $/hour after taxes.
+      </label>
+    </p>
+
+    <p>
+      <label>
+        and work
+        <input type="number" id="hoursPerDay" min=0.01 max=24 maxlength="3"> hours per day
+        and
+        <input type="number" id="daysPerMonth" min=0.01 max=31 maxlength="3"> days per month on average.
+      </label>
+    </p>
+
+    Warning:
+
+    <ul>
+
+      <li>Only $ prices are supported (like $5, but not 5 dollars). </li>
+      <li>This is a beta version and it might not work on some sites. Please report bugs <a
+          href="https://becausecurious.me/contact">here</a>. </li>
+    </ul>
+
+    <script src="glue.js"></script>
+    <script src="options.js"></script>
+    <script src="options_util.js"></script>
+
+</body>
+
+</html>
