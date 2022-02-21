@@ -21,11 +21,6 @@
       "all_frames": true
     }
   ],
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "{8a55e6be-3bef-4750-96d9-9c2fd3f55a12}"
-    }
-  },
   "icons": {
     "128": "icon_128.png"
   },

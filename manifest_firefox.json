@@ -23,14 +23,16 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "{8a55e6be-3bef-4750-96d9-9c2fd3f55a12}"
+      "id": "{07d7af12-7016-493c-a3f0-e804fc7ffde6}"
     }
   },
   "icons": {
     "128": "icon_128.png"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "options_ui": {
     "page": "options.html",
